@@ -29,7 +29,7 @@ const App = () => {
           })
         }
           </>
-          :<>No fields in the form<br/></>
+          :<><p>No fields in the form</p><br/></>
         }
         <button onClick={handleClick}>Add Field</button>
     </div>

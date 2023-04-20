@@ -4,7 +4,7 @@ const Task = ({field,index,handleDelete,handleInputChange}) => {
   return (
     <div className='task'>
         <input  onChange={(e)=>handleInputChange(e.target.value,index)} value={field.value}/>
-        <button onClick={()=>handleDelete(index)}>Delete</button>
+        <button className='delete' onClick={()=>handleDelete(index)}>Delete</button>
         <br/>
     </div>
   )
